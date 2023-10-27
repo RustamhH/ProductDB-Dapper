@@ -28,74 +28,81 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.ProductsList = new System.Windows.Forms.ListBox();
-            this.AddButton = new System.Windows.Forms.Button();
-            this.EditButton = new System.Windows.Forms.Button();
-            this.ClearButton = new System.Windows.Forms.Button();
-            this.RemoveButton = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            ProductsList = new ListBox();
+            AddButton = new Button();
+            EditButton = new Button();
+            ClearButton = new Button();
+            RemoveButton = new Button();
+            SuspendLayout();
             // 
             // ProductsList
             // 
-            this.ProductsList.FormattingEnabled = true;
-            this.ProductsList.ItemHeight = 20;
-            this.ProductsList.Location = new System.Drawing.Point(1, 0);
-            this.ProductsList.Name = "ProductsList";
-            this.ProductsList.Size = new System.Drawing.Size(479, 384);
-            this.ProductsList.TabIndex = 0;
+            ProductsList.FormattingEnabled = true;
+            ProductsList.ItemHeight = 15;
+            ProductsList.Location = new Point(1, 0);
+            ProductsList.Margin = new Padding(3, 2, 3, 2);
+            ProductsList.Name = "ProductsList";
+            ProductsList.Size = new Size(420, 289);
+            ProductsList.TabIndex = 0;
             // 
             // AddButton
             // 
-            this.AddButton.Location = new System.Drawing.Point(12, 420);
-            this.AddButton.Name = "AddButton";
-            this.AddButton.Size = new System.Drawing.Size(458, 29);
-            this.AddButton.TabIndex = 1;
-            this.AddButton.Text = "Add Product";
-            this.AddButton.UseVisualStyleBackColor = true;
-            this.AddButton.Click += new System.EventHandler(this.AddButton_Click);
+            AddButton.Location = new Point(10, 315);
+            AddButton.Margin = new Padding(3, 2, 3, 2);
+            AddButton.Name = "AddButton";
+            AddButton.Size = new Size(401, 22);
+            AddButton.TabIndex = 1;
+            AddButton.Text = "Add Product";
+            AddButton.UseVisualStyleBackColor = true;
+            AddButton.Click += AddButton_Click;
             // 
             // EditButton
             // 
-            this.EditButton.Location = new System.Drawing.Point(12, 466);
-            this.EditButton.Name = "EditButton";
-            this.EditButton.Size = new System.Drawing.Size(458, 29);
-            this.EditButton.TabIndex = 2;
-            this.EditButton.Text = "Edit Product";
-            this.EditButton.UseVisualStyleBackColor = true;
+            EditButton.Location = new Point(10, 350);
+            EditButton.Margin = new Padding(3, 2, 3, 2);
+            EditButton.Name = "EditButton";
+            EditButton.Size = new Size(401, 22);
+            EditButton.TabIndex = 2;
+            EditButton.Text = "Edit Product";
+            EditButton.UseVisualStyleBackColor = true;
+            EditButton.Click += EditButton_Click;
             // 
             // ClearButton
             // 
-            this.ClearButton.Location = new System.Drawing.Point(12, 562);
-            this.ClearButton.Name = "ClearButton";
-            this.ClearButton.Size = new System.Drawing.Size(458, 29);
-            this.ClearButton.TabIndex = 3;
-            this.ClearButton.Text = "Clear List";
-            this.ClearButton.UseVisualStyleBackColor = true;
-            this.ClearButton.Click += new System.EventHandler(this.ClearButton_Click);
+            ClearButton.Location = new Point(10, 422);
+            ClearButton.Margin = new Padding(3, 2, 3, 2);
+            ClearButton.Name = "ClearButton";
+            ClearButton.Size = new Size(401, 22);
+            ClearButton.TabIndex = 3;
+            ClearButton.Text = "Clear List";
+            ClearButton.UseVisualStyleBackColor = true;
+            ClearButton.Click += ClearButton_Click;
             // 
             // RemoveButton
             // 
-            this.RemoveButton.Location = new System.Drawing.Point(12, 513);
-            this.RemoveButton.Name = "RemoveButton";
-            this.RemoveButton.Size = new System.Drawing.Size(458, 29);
-            this.RemoveButton.TabIndex = 4;
-            this.RemoveButton.Text = "Remove Product";
-            this.RemoveButton.UseVisualStyleBackColor = true;
+            RemoveButton.Location = new Point(10, 385);
+            RemoveButton.Margin = new Padding(3, 2, 3, 2);
+            RemoveButton.Name = "RemoveButton";
+            RemoveButton.Size = new Size(401, 22);
+            RemoveButton.TabIndex = 4;
+            RemoveButton.Text = "Remove Product";
+            RemoveButton.UseVisualStyleBackColor = true;
+            RemoveButton.Click += RemoveButton_Click;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(482, 653);
-            this.Controls.Add(this.RemoveButton);
-            this.Controls.Add(this.ClearButton);
-            this.Controls.Add(this.EditButton);
-            this.Controls.Add(this.AddButton);
-            this.Controls.Add(this.ProductsList);
-            this.Name = "Form1";
-            this.Text = "Catalog";
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(422, 490);
+            Controls.Add(RemoveButton);
+            Controls.Add(ClearButton);
+            Controls.Add(EditButton);
+            Controls.Add(AddButton);
+            Controls.Add(ProductsList);
+            Margin = new Padding(3, 2, 3, 2);
+            Name = "Form1";
+            Text = "Catalog";
+            ResumeLayout(false);
         }
 
         #endregion

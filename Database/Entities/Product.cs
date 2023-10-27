@@ -12,5 +12,9 @@ namespace Database.Entities
         public string? Name { get; set; }
         public string? Country { get; set; }
         public decimal Cost { get; set; }
+        public override string ToString()
+        {
+            return $"{Id}-{Name}-{Country}-{Cost}";
+        }
     }
 }

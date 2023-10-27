@@ -28,102 +28,108 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.OKButton = new System.Windows.Forms.Button();
-            this.CancelButton = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.NameTextBox = new System.Windows.Forms.TextBox();
-            this.CountryTextBox = new System.Windows.Forms.TextBox();
-            this.CostTextBox = new System.Windows.Forms.TextBox();
-            this.SuspendLayout();
+            OKButton = new Button();
+            CancelButton = new Button();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            NameTextBox = new TextBox();
+            CountryTextBox = new TextBox();
+            CostTextBox = new TextBox();
+            SuspendLayout();
             // 
             // OKButton
             // 
-            this.OKButton.Location = new System.Drawing.Point(13, 266);
-            this.OKButton.Name = "OKButton";
-            this.OKButton.Size = new System.Drawing.Size(94, 29);
-            this.OKButton.TabIndex = 0;
-            this.OKButton.Text = "OK";
-            this.OKButton.UseVisualStyleBackColor = true;
-            this.OKButton.Click += new System.EventHandler(this.OKButton_Click);
+            OKButton.Location = new Point(11, 200);
+            OKButton.Margin = new Padding(3, 2, 3, 2);
+            OKButton.Name = "OKButton";
+            OKButton.Size = new Size(82, 22);
+            OKButton.TabIndex = 0;
+            OKButton.Text = "OK";
+            OKButton.UseVisualStyleBackColor = true;
+            OKButton.Click += OKButton_Click;
             // 
             // CancelButton
             // 
-            this.CancelButton.Location = new System.Drawing.Point(181, 266);
-            this.CancelButton.Name = "CancelButton";
-            this.CancelButton.Size = new System.Drawing.Size(94, 29);
-            this.CancelButton.TabIndex = 1;
-            this.CancelButton.Text = "Cancel";
-            this.CancelButton.UseVisualStyleBackColor = true;
-            this.CancelButton.Click += new System.EventHandler(this.CancelButton_Click);
+            CancelButton.Location = new Point(158, 200);
+            CancelButton.Margin = new Padding(3, 2, 3, 2);
+            CancelButton.Name = "CancelButton";
+            CancelButton.Size = new Size(82, 22);
+            CancelButton.TabIndex = 1;
+            CancelButton.Text = "Cancel";
+            CancelButton.UseVisualStyleBackColor = true;
+            CancelButton.Click += CancelButton_Click;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 18);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 20);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Product Name:";
+            label1.AutoSize = true;
+            label1.Location = new Point(11, 14);
+            label1.Name = "label1";
+            label1.Size = new Size(87, 15);
+            label1.TabIndex = 2;
+            label1.Text = "Product Name:";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 85);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 20);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Origin Country";
+            label2.AutoSize = true;
+            label2.Location = new Point(10, 64);
+            label2.Name = "label2";
+            label2.Size = new Size(86, 15);
+            label2.TabIndex = 3;
+            label2.Text = "Origin Country";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 169);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(93, 20);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Product Cost";
+            label3.AutoSize = true;
+            label3.Location = new Point(10, 127);
+            label3.Name = "label3";
+            label3.Size = new Size(76, 15);
+            label3.TabIndex = 4;
+            label3.Text = "Product Cost";
             // 
             // NameTextBox
             // 
-            this.NameTextBox.Location = new System.Drawing.Point(13, 41);
-            this.NameTextBox.Name = "NameTextBox";
-            this.NameTextBox.Size = new System.Drawing.Size(262, 27);
-            this.NameTextBox.TabIndex = 5;
+            NameTextBox.Location = new Point(11, 31);
+            NameTextBox.Margin = new Padding(3, 2, 3, 2);
+            NameTextBox.Name = "NameTextBox";
+            NameTextBox.Size = new Size(230, 23);
+            NameTextBox.TabIndex = 5;
             // 
             // CountryTextBox
             // 
-            this.CountryTextBox.Location = new System.Drawing.Point(13, 120);
-            this.CountryTextBox.Name = "CountryTextBox";
-            this.CountryTextBox.Size = new System.Drawing.Size(262, 27);
-            this.CountryTextBox.TabIndex = 6;
+            CountryTextBox.Location = new Point(11, 90);
+            CountryTextBox.Margin = new Padding(3, 2, 3, 2);
+            CountryTextBox.Name = "CountryTextBox";
+            CountryTextBox.Size = new Size(230, 23);
+            CountryTextBox.TabIndex = 6;
             // 
             // CostTextBox
             // 
-            this.CostTextBox.Location = new System.Drawing.Point(13, 206);
-            this.CostTextBox.Name = "CostTextBox";
-            this.CostTextBox.Size = new System.Drawing.Size(262, 27);
-            this.CostTextBox.TabIndex = 7;
+            CostTextBox.Location = new Point(11, 154);
+            CostTextBox.Margin = new Padding(3, 2, 3, 2);
+            CostTextBox.Name = "CostTextBox";
+            CostTextBox.Size = new Size(230, 23);
+            CostTextBox.TabIndex = 7;
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(295, 391);
-            this.Controls.Add(this.CostTextBox);
-            this.Controls.Add(this.CountryTextBox);
-            this.Controls.Add(this.NameTextBox);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.CancelButton);
-            this.Controls.Add(this.OKButton);
-            this.Name = "Form2";
-            this.Text = "Form2";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(258, 293);
+            Controls.Add(CostTextBox);
+            Controls.Add(CountryTextBox);
+            Controls.Add(NameTextBox);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(CancelButton);
+            Controls.Add(OKButton);
+            Margin = new Padding(3, 2, 3, 2);
+            Name = "Form2";
+            Text = "Form2";
+            Load += Form2_Load;
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

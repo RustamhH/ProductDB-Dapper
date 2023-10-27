@@ -11,8 +11,8 @@ namespace ProductDB_Dapper
         public Form1()
         {
             InitializeComponent();
-            connection = new SqlConnection("Data Source=HOMEPC\\SQLEXPRESS;Initial Catalog=Products;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
-            WriteData();   
+            connection = new SqlConnection("Data Source=STHQ012E-07;User ID=admin;Password=admin;Initial Catalog=Products;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
+            WriteData();
         }
 
         private void WriteData()
@@ -22,7 +22,7 @@ namespace ProductDB_Dapper
             var Products = connection.Query<Product>("SELECT * FROM Products").ToList();
             foreach (var product in Products)
             {
-                ProductsList.Items.Add($"{product.Id}-{product.Name}-{product.Country}-{product.Cost}");
+                ProductsList.Items.Add(product);
             }
             connection.Close();
         }
@@ -36,10 +36,21 @@ namespace ProductDB_Dapper
         private void AddButton_Click(object sender, EventArgs e)
         {
             Form2 form2 = new();
-            if (form2.ShowDialog() == DialogResult.OK)
-            {
-                WriteData();
-            }
+            form2.ShowDialog();
+            WriteData();
+        }
+
+        private void RemoveButton_Click(object sender, EventArgs e)
+        {
+            connection.Execute($"DELETE FROM Products WHERE Id={(ProductsList.SelectedItem as Product).Id}");
+            WriteData();
+        }
+
+        private void EditButton_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new(ProductsList.SelectedItem as Product);
+            form2.ShowDialog();
+            WriteData();
         }
     }
 }
