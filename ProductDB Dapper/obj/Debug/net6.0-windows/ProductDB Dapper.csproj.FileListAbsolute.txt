@@ -1,0 +1,69 @@
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\ProductDB Dapper.exe
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\ProductDB Dapper.deps.json
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\ProductDB Dapper.runtimeconfig.json
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\ProductDB Dapper.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\ProductDB Dapper.pdb
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Azure.Core.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Azure.Identity.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Humanizer.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Mono.TextTemplating.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\System.Memory.Data.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\System.Text.Json.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\obj\Debug\net6.0-windows\ProductDB Dapper.csproj.AssemblyReference.cache
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\obj\Debug\net6.0-windows\ProductDB_Dapper.Form1.resources
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\obj\Debug\net6.0-windows\ProductDB Dapper.csproj.GenerateResource.cache
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\obj\Debug\net6.0-windows\ProductDB Dapper.GeneratedMSBuildEditorConfig.editorconfig
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\obj\Debug\net6.0-windows\ProductDB Dapper.AssemblyInfoInputs.cache
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\obj\Debug\net6.0-windows\ProductDB Dapper.AssemblyInfo.cs
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\obj\Debug\net6.0-windows\ProductDB Dapper.csproj.CoreCompileInputs.cache
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\obj\Debug\net6.0-windows\ProductDB Dapper.csproj.CopyComplete
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\obj\Debug\net6.0-windows\ProductDB Dapper.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\obj\Debug\net6.0-windows\refint\ProductDB Dapper.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\obj\Debug\net6.0-windows\ProductDB Dapper.pdb
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\obj\Debug\net6.0-windows\ProductDB Dapper.genruntimeconfig.cache
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\obj\Debug\net6.0-windows\ref\ProductDB Dapper.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Database.deps.json
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Database.runtimeconfig.json
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Database.exe
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Dapper.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Database.dll
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\bin\Debug\net6.0-windows\Database.pdb
+D:\ADO.NET\ProductDB Dapper\ProductDB Dapper\obj\Debug\net6.0-windows\ProductDB_Dapper.Form2.resources
